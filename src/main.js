@@ -10,6 +10,9 @@ import './styles/index.less'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+// dynamically set base rem value
+import 'amfe-flexible'
+
 // reg and use vant
 Vue.use(Vant)
 
